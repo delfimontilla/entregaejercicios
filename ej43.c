@@ -21,7 +21,7 @@ int main (void){
 
 	float km=0, precio=0, nafta=0, rendimiento=0;
 	float prom=0, mejor=0, peor=100000, dist=0, combustible=0, costo=0;
-	int R=0, i=0;
+	float R=0, i=0;
 
 		
 	
