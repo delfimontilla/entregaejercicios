@@ -95,6 +95,6 @@ int main (void) {
      break;
   }
 
-return EXIT_SUCCESS;
+ return EXIT_SUCCESS;
 
 }
