@@ -1,0 +1,33 @@
+Procedimiento de la entrega de ejercicios N°2
+1. Descargar los archivos desde GitHub https://github.com/delfimontilla/entregaejercicios/invitations
+2. Abrir la terminal en la carpeta donde se encuentren guardados los archivos.
+3. Para cada archivo por separado de la guía 2 y 3 excepto guia3_ejercicio14.c:
+a. Compilar con la directiva gcc -ansi -Wall -pedantic nombredearchivo.c -o nombredelarchivo
+b. Ejecutar el archivo con la directiva ./nombredelarchivo 
+i. Para el ejercicio 5 de la guía 2 (guia2_ejercicio5.c), se debe ingresar la temperatura de la estrella de la cual se quiere saber el color cuando aparezca la indicación en la pantalla.
+ii. Para el ejercicio 6 de la guía 3 (guia3_ejercicio6.c), se debe ingresar la altura y el radio del cilindro cuando aparezca la indicación en la pantalla.
+iii. El ejercicio 13 de la guía 3(guia3_ejercicio13.c) genera aleatoriamente los números siguiendo las directivas; si se quisiese testear exhaustivamente se deberían realizar al menos 10000 ejecuciones y comprobar el cumplimiento de las probabilidades pedidas.
+4. Para el ejercicio 14 de la guía 3 (guia3_ejercicio14.c), abrir el archivo en un editor de texto y leer los comentarios escritos que explican el funcionamiento.
+5. En el ejercicio 14 de la guía 4 (guia4_ejercicio14.c), se encuentra declarado un vector de prueba:
+“v[]={1,2,3,4,5,6,7,8,9,10}”,
+ y una variable que representa el número buscado: 
+“objetivo=9”.
+Se pueden modificar abriendo el archivo en un editor de texto, teniendo en cuenta que los elementos del vector deben estar ordenados.
+a. Compilar con la directiva gcc -ansi -Wall -pedantic nombredearchivo.c -o nombredelarchivo
+b. Ejecutar el archivo con la directiva ./nombredelarchivo
+6. En el ejercicio 19 de la guía 4 (guia4_ejercicio19.c), se encuentra declarada una matriz de prueba:
+“m[2][2]={{1,0},{3,4}}”,
+y en todas las funciones se declaró el número de columnas explícitamente:
+“(int (* const m)[2],int nfilas,int ncols)”.
+En caso de querer probar el código con otra matriz se debe abrir el archivo en un editor de texto, cambiar la declaración de m y el número de columnas en cada función. 
+a. Compilar con la directiva gcc -ansi -Wall -pedantic nombredearchivo.c -o nombredelarchivo
+b. Ejecutar el archivo con la directiva ./nombredelarchivo
+7. En el primer ejercicio planteado de punteros (ejerciciopunteros1.c)
+a. Compilar con la directiva gcc -ansi -Wall -pedantic nombredearchivo.c -o nombredelarchivo
+b. Ejecutar el archivo con la directiva ./nombredelarchivo
+i. Se debe ingresar la cantidad de segundos a convertir a horas, minutos y segundos cuando aparezca la indicación en la pantalla.
+8. En el segundo ejercicio planteado de punteros (ejerciciopunteros2.c), no se utilizó el vector de punteros a enteros ya que no fue considerado necesario en la implementación. En caso de querer probarlo con otra matriz a la pedida, se debe abrir el archivo en un editor de texto, cambiar la declaración de matriz[][] y el número de columnas en la función:
+“imprimir (int f, int c, int m[][4], int *puntero)” 
+a. Compilar con la directiva gcc -ansi -Wall -pedantic nombredearchivo.c -o nombredelarchivo
+b. Ejecutar el archivo con la directiva ./nombredelarchivo
+
